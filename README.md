@@ -1,9 +1,6 @@
 # SAS-Basico
-Un sitio increíble para aprender SAS desde cero.
 
 ![](https://i.imgur.com/cM50NKd.png)
-
-# Bienvenida
 
 **Bienvenido al curso básico de SAS**, aquí aprenderás a dominar este lenguaje desde cero, **te saluda Heriberto Cartas Barrera**.
 
@@ -36,3 +33,33 @@ Algunas de las características adicionales del lenguaje de programación SAS so
 - El lenguaje se considera ambiguo, esto implica que la interpretación de las instrucciones depende de instrucciones previas.
 - El lenguaje no se puede describir a través de una Gramática de contexto libre.
 - El análisis léxico del lenguaje depende del contexto. Analizador léxico.
+
+# Introducción a SAS Studio
+
+## Bienvenido a SAS Studio
+
+**¡Bienvenido a SAS Studio!** Esta es una breve **introducción** a SAS Studio y
+trata de cómo realizar tareas de programación básicas en esta aplicación. Para ello se pueden seguir estos pasos y utilizar los datos de muestra de la librería Sashelp incluida junto con el software SAS.
+
+La mayoría de **programadores** de SAS suelen utilizar una aplicación en el escritorio de PC o en un servidor SAS. SAS Studio es una herramienta diferente porque puede utilizarse desde un **navegador web** para escribir y ejecutar **código SAS**. Con SAS
+Studio, se podrá acceder a los archivos de datos, librerías y programas existentes de un usuario y también escribir nuevos programas. Al utilizar SAS Studio, se está utilizando el **software SAS** en segundo plano. SAS Studio está conectado a un servidor SAS para poder procesar **comandos SAS**. El **servidor SAS** puede ser un servidor alojado **en la nube**, un servidor en el **entorno local** o una copia de SAS en la **máquina local**. Una vez procesado el código, los resultados se devuelven a **SAS Studio**.
+
+![](https://i.imgur.com/RKzdkFY.png)
+
+**SAS Studio** es compatible con diversos navegadores web, como Microsoft Internet
+Explorer, Apple Safari, Mozilla Firefox y Google Chrome.
+
+Según vaya avanzando en esta introducción irá aprendiendo a realizar estas tareas:
+
+- Escribir un programa.
+- Guardar los resultados.
+- Corregir un error de programación.
+- Utilizar la sección Librerías para ahorrar tiempo.
+- Dejar que sea SAS Studio el que escriba los programas.
+
+## SAS Studio a primera vista
+
+Al conectarse a SAS Studio, se abrirá la ventana principal de SAS Studio.
+
+![](https://i.imgur.com/OBLRN8v.png)
+
