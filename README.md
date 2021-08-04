@@ -63,3 +63,25 @@ Al conectarse a SAS Studio, se abrirá la ventana principal de SAS Studio.
 
 ![](https://i.imgur.com/OBLRN8v.png)
 
+La **ventana principal** de SAS Studio consta de un **panel de navegación** a la izquierda y un **área de trabajo** a la derecha. Desde el **panel de navegación** se pede acceder a los archivos en el servidor y en sus accesos directos a carpetas, a sus tareas y fragmentos de código, a las librerías para las que tenga permisos y a sus accesos directos a archivos. **La sección Archivos y carpetas del servidor** se muestra de manera predeterminada.
+
+El **área de trabajo** se utiliza para mostrar los **datos**, **él código**, **logs** y **resultados**. Al abrir SAS Studio por primera vez, el área de trabajo muestra una nueva ventana de programación. Según se vayan abriendo datos y ejectuando tareas, irán apareciendo otras ventanas en el área de trabajo dispuestas en una interfaz de pestañas.
+
+SAS Studio incluye dos pestañas perspectivas diferentes: la perspectiva del pogramador SAS y la del programador visual. Una perspectiva es un conjunto predeterminado de características personalizao para cumplir las expectativas de un tipo de usuario específico. Esta introducción trata sobre la programación SAS po lo que es necesario que compruebe que la perspectiva del pogramador SAS está seleccionada en la barra de herramientas de la parte superiror de la aplicación. Se puede encontrar más información sobre ambas perspectivas en SAS Studio: *User's Guide*.
+
+Hay varias formas de obtener ayuda al trabajar en SAS Studio. Algunas opciones de la aplicación cuentan con ayuda emergente, a la que se puede acceder pulsando el signo interrogación **?** situado junto a la opción **Cerrar sesión**. Existe una ayuda global para SAS Studio disponible al pulsar **?** y es la opción **Ayuda de SAS Studio**.
+
+# Primeros pasos en SAS Studio
+
+## Escribir un programa
+
+Ahora resulta más fácil programar en SAS. Todo lo que el usuario necesita hacer es abrir el navegador, entrar en SAS Studio y empezar a escribir el programa. Según se va introduciendo código, podrá viendo cómo SAS Studio cuenta con varias características que le pueden ayudar a reducir el tiempo de programación, incluyendo también la ayuda de sintaxis integrada que incluye enlaces a una completa documentación de productos SAS.
+
+imagen
+
+Para empezar, se puede escribir un programa muy simple que utilice una **tabla SAS de ejemplo** de la **librería Sashelp**. Abra SAS Studio e introduzca el sigueinte código en la ventana **Programa 1** que se creará automáticamente:
+
+```
+proc print data=sashelp.class;
+run;
+```
