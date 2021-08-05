@@ -136,3 +136,32 @@ Para buscar una versión anterior del programa, pulse la pestaña **Código** pa
 ![](https://i.imgur.com/vVFlDn3.png)
 
 La versión original del programa se abrirá en una nueva ventana desde la que se podría copiar y pegar el código libre de errores en el programa original o en un nuevo programa.
+
+# Ahorrar tiempo con la sección Librerías
+
+## Añadir nombres de columan al programa
+
+SAS Studio está diseñado para ayudarle a escribir programas SAS de forma rápida y precisa. En la secciión Librerias del panel de navegación, es posible acceder a todas las librerias y a las tablas de esas librerías. Para ver los nombres de las columnas en una tabla, puede expandirla y ver así todas las columnas. Podrá ahorrrar tiempo al escribir un programa si arrastra los elementos desde la sección Liberías hasta el programa. SAS Studio irá añadiendo en el programa el código para estos elementos.
+
+Para ver cómo funciona, vuelva al programa original que empieza así:
+
+```
+proc print data=sashelp.class;
+run;
+```
+
+A continuación, añada la sentencia **VAR** al programa para especificar qué variables o columnas desea incluir en los resultados. Tras la primera línea de código, añada la siguiente nueva línea de código:
+
+```
+var
+```
+
+El programa debería ser similar a este:
+
+```
+proc print data=sashelp.class;
+var
+run;
+```
+
+Ahora se puede utilizar la sección Librerías para completar la sentencia VAR. Haga clic en la sección Liberías en el panel de navegación y expanda la librería Sashpel. Localice la tabla Class y expándala para ver las columnas.
