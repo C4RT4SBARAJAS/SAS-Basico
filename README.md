@@ -77,7 +77,7 @@ Hay varias formas de obtener ayuda al trabajar en SAS Studio. Algunas opciones d
 
 Ahora resulta más fácil programar en SAS. Todo lo que el usuario necesita hacer es abrir el navegador, entrar en SAS Studio y empezar a escribir el programa. Según se va introduciendo código, podrá viendo cómo SAS Studio cuenta con varias características que le pueden ayudar a reducir el tiempo de programación, incluyendo también la ayuda de sintaxis integrada que incluye enlaces a una completa documentación de productos SAS.
 
-imagen
+![](https://i.imgur.com/G2vBXuK.png)
 
 Para empezar, se puede escribir un programa muy simple que utilice una **tabla SAS de ejemplo** de la **librería Sashelp**. Abra SAS Studio e introduzca el sigueinte código en la ventana **Programa 1** que se creará automáticamente:
 
@@ -85,3 +85,54 @@ Para empezar, se puede escribir un programa muy simple que utilice una **tabla S
 proc print data=sashelp.class;
 run;
 ```
+
+**No olvide que cada sentencia SAS debe terminar con el signo de punto y coma**.
+
+Nota: si necesita crear una nueva ventana de programa, abra la sección **Archivos y carpetas del sevidor** en el panel de navegación. Después puse **Nuevo programa** y seleccione **Programa SAS**.
+
+Para ejecutra el código, pulse **Run** en la barra de herramientas. La pestaña **Resultados** se abrirá automáticamente con un listado de los datos en la tabla **Class**.
+
+![](https://i.imgur.com/AjOlRKZ.png)
+
+## Guardar los resultados
+
+En SAS Studio es fácil utilizar los resultados, pero, ¿qué ocurriría si se necesitan en un formato diferente para poder compatirlos con alguien? Sólo con pulsar un botón en la barra de herramientas **Resultados**, se podrán descargar los resultados en tres tipos de frotmato diferentes y guardarlos o abrirlos en la aplicaciión predeterminada para cada formato:
+
+- **Archivo HTML**.
+- **Archivo PDF**.
+- **Archivo RTF**.
+
+En el siguiente ejemplo, los restultados se han descargado como archivo PDF y se han abierto en Adobe Arcobat Reader.
+
+![](https://i.imgur.com/5ApuvpK.png)
+
+Los resultados de SAS Studo teambién se pueden imprimir pulsando el **icóno de imprimir**. Los resultados se abrirán en otra ventana distinta del navegador y entonces se podrán utilizar los controles de la imperesora predeterminada en ese navegador.
+
+## ¿Qué hacer en caso de error?
+
+Si hay un error en el código SAS, SAS Studio facilitará la identificación del problema. Para ver cómo funciona hemos añadido un error al programa original.
+
+Haga clic en la pestaña **Código** para abrir el programa. Elimine el signo de punto y coma de la primera línea del programa.
+
+El programa debería se similar a este:
+
+```
+proc print data=sashelp.class
+run;
+```
+
+Pulse **Run** para ejecutar el programa. Esta vez, la pestaña **Log** se abrirá de forma automática para mostrar que existe un error.
+
+![](https://i.imgur.com/tJbjBZ5.png)
+
+En la sección **Errores**, **Avisos** y **Notas**, expanda **Errores** para ver una descripción del error. Haga clic en el mensaje de error y SAS Studio lo resaltará en la log para que pueda ver con exactitud dónde se produjo el error.
+
+![](https://i.imgur.com/0LNCGZO.png)
+
+Ahora sólo tiene que volver al programa y corregir el erro. Sin embargo, si el programa es largo y complicado y tien bastentes errores, podría ser preferible volver a una versión anterior del programa que tuviera el código correcto. SAS Studio mantiene una log o **historial de procesamiento**, con entradas para cada ejecución del programa, por lo que resultará fácil **volver a una versión anterior de un programa**.
+
+Para buscar una versión anterior del programa, pulse la pestaña **Código** para ver la versión actual del programa. En la barra de herramientas, pulse el **icono reloj** y después selecione la primera versión del programa.
+
+![](https://i.imgur.com/vVFlDn3.png)
+
+La versión original del programa se abrirá en una nueva ventana desde la que se podría copiar y pegar el código libre de errores en el programa original o en un nuevo programa.
