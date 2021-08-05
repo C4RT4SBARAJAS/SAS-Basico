@@ -165,3 +165,15 @@ run;
 ```
 
 Ahora se puede utilizar la sección Librerías para completar la sentencia VAR. Haga clic en la sección Liberías en el panel de navegación y expanda la librería Sashpel. Localice la tabla Class y expándala para ver las columnas.
+
+![](https://i.imgur.com/hNbHLPV.png)
+
+Mantenga pulsada la **tecla Ctrl** y seleccione las columnas **Name**, **Age** y **Height** y despúes arrástrelas hasta el final de la sentencia VAR en el programa. Parece un icono con una marca de validez verde que indica dónde se peuden dejar las columnas seleccionadas.
+
+![](https://i.imgur.com/bxGf3aS.png)
+
+Al soltar las columnas seleccionadas, SAS Studio irá añandiendo nombres de columna al programa. El lenguaje de programaciión requiere que cada sentencia finalice con el signo de punto y coma. Para evitar otro error en la ejecución del programa, deberá añadir este signo al final de la sentencia VAR.
+
+![](https://i.imgur.com/jng19iX.png)
+
+Mediante el uso de la sección Librería, el usuario podría ver fácilmente los nombres de las columnas de una tabla y ahorrar tiempo arrastrando la tabla y los nombres de columna a los programas en lugar de tener que ir introduciéndolos.
