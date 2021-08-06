@@ -177,3 +177,17 @@ Al soltar las columnas seleccionadas, SAS Studio irá añandiendo nombres de col
 ![](https://i.imgur.com/jng19iX.png)
 
 Mediante el uso de la sección Librería, el usuario podría ver fácilmente los nombres de las columnas de una tabla y ahorrar tiempo arrastrando la tabla y los nombres de columna a los programas en lugar de tener que ir introduciéndolos.
+
+# Utilizar SAS Studio para generar el código
+
+## ¡Deja que SAS Studio programe por ti!
+
+SAS Studio es el sofware idóneo para progrmadores SAS con poca experiencia o para usuarios que necesiten programas existentes para iniciarse en el programación SAS. Con él se peden **abrir tablas en visor de tablas**, **seleccionar columnas para mostrar** y **filtrar** y **ordenar los datos**. En segundo plano, SAS Studio va escribiendo todo el código necesario para mostrar la tabla y esté código estára disponible para el usuario.
+
+En la sección Librerias, haga doble clic en la tabla Class para abrirla en el visor de tablas.
+
+![](https://i.imgur.com/0h1Mfag.png)
+
+En el área **Columnas** del visor de tablas aparecerán por defecto todas las columnas seleccionadas. Borre la columna **Weighty** observe como queda eliminada del visor de tablas.
+
+![](https://i.imgur.com/Sbl6e1G.png)
