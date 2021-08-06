@@ -7,10 +7,10 @@
 Antes de empezar dejame decirte que no es un curso terminado. Yo como tú también estoy aprendiedo de este gran lenguaje, y quise documentar todo este aprendizaje mediante un curso, que me terminará ayudando a mí, así como a tí si estas empezando con este gran lenguaje. 
 
 Los programas que utilizo para crear y correr el código son:
-- **Plataforma SAS**:	Linux LIN X64 3.10.0-1062.9.1.el7.x86_64
-- **Versión SAS**:	9.04.01M6P11072018
-- **Windows Subsystem for Linux**: Ubuntu-20.04
-- **Ubuntu 20.04.2 LTS**
+- Plataforma SAS:	Linux LIN X64 3.10.0-1062.9.1.el7.x86_64
+- Versión SAS:	9.04.01M6P11072018
+- Windows Subsystem for Linux: Ubuntu-20.04
+- Ubuntu 20.04.2 LTS
 
 # ¿Qué es SAS?
 
@@ -191,3 +191,29 @@ En la sección Librerias, haga doble clic en la tabla Class para abrirla en el v
 En el área **Columnas** del visor de tablas aparecerán por defecto todas las columnas seleccionadas. Borre la columna **Weighty** observe como queda eliminada del visor de tablas.
 
 ![](https://i.imgur.com/Sbl6e1G.png)
+
+A continuación se puede añadir un filtro y ordenar los datos. Haga clic con el botón derecho en la cabecera de columna Age y seleccione Añadir filtro. En la lista de valores de columna, mantenga pulsada la tecla Ctrl y sleccione tres valores: 11, 12, 13.
+
+![](https://i.imgur.com/8WPaJCL.png)
+
+Pulse Filtrar. El visor de tablas se actualizará y mostrará ahora las filas para las edades 11, 12 y 13.
+
+Nota: los criterios del filtro se mostrarán al principio del visor de tablas. Se podrá pulsar el icono de filtrar para editar el filtro y ❎ para eliminar el filtro.
+
+![](https://i.imgur.com/7L5qQuO.png)
+
+Finalmente, haga clic con el botón derecho en la cabecera de columan **Height** y sleccione **Orden ascendente**. La tabla estará ordenada por los valores de la columna Height desde el menor al mayo.
+
+![](https://i.imgur.com/sJ3vOGh.png)
+
+Mientras el usuario va seleccionando opciones y personalizando la tabla para obtener el resultado deseado, SAS Studio va generango el código SAS que podrá utilizarse posteriormente. Para ver el código, pulse el icono de datos en la barra de herramientas. Aparecerá una nueva ventana de programa con el código utilizado para crear la vista de la tabla en el visor de tablas.
+
+![](https://i.imgur.com/lIZbfcQ.png)
+
+Este programa es una copia del código creado por SAS Studio y ya no está asociado al visor de tablas. La edición de este programa no afectará a los datos mostrados en el visor de tablas y las modificaciones en el visor no afecatarán tampoco al contenido de este código. Este código se podrá editar o podrá utilizarse como base para otro programa.
+
+# Información adicional
+
+## Más información
+
+Esta introducción solo presenta algunas de las características básicas que le servirán para iniciarse en la programaciión en SAS Studio. El siguiente paso en el aprendizaje dependerá de cómo vaya a utilizar el software. Recuerde que encontrará una guía de ayuda completa en el menú Ayuda de SAS Studio y en la [página de documentación del producto SAS Studio](https://support.sas.com/en/software/studio-support.html#documentation "página de documentación del producto SAS Studio").
